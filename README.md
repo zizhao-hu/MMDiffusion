@@ -1,6 +1,3 @@
-Absolutely, here is the README template in a format that you can directly copy and paste into a README.md file:
-
-```markdown
 # Multimodal Joint Diffusion for Robust Generation of High-Quality Images
 
 ## Introduction
