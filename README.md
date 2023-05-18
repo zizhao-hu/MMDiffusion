@@ -1,8 +1,9 @@
-# Multimodal Joint Diffusion for Robust Generation of High-Quality Images
+# Multimodal Channel-wise Image-guided Joint Diffusion
 
 ## Introduction
 
-This repository contains the implementation of the paper "Multimodal Joint Diffusion for Robust Generation of High-Quality Images". The paper presents a novel approach to generative AI that mimics human-like multimodal learning. The model is based on score-based diffusion models and is designed to be robust against noisy language inputs, generate correlated modalities in all directions, and provide a learning scheme that is empirically similar to biological neural networks.
+This repository contains the implementation of the paper "Cognitively Inspired Cross-Modal Data Generation
+Using Diffusion Models". The paper presents a novel approach to generative AI that mimics human-like multimodal learning. The model is based on score-based diffusion models and is designed to be robust against noisy language inputs, generate correlated modalities in all directions, and provide a learning scheme that is empirically similar to biological neural networks.
 
 ## Abstract
 
