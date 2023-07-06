@@ -7,15 +7,15 @@ Using Diffusion Models". The paper presents a novel approach to generative AI th
 
 ## Abstract
 
-The paper addresses the gap between human-like multimodal learning and AI by exploring a channel-wise image-guided multimodal joint diffusion training scheme. This scheme transforms and aligns multimodal data in the input space rather than in the learned latent space, resulting in more adaptable and robust models. The model trains on noisy data in all modalities, allowing for noisy language inputs as conditions in the process of conditional generation, enhancing robustness in diverse scenarios.
+The paper addresses the gap between human-like multimodal learning and AI by exploring a channel-wise image-guided multimodal joint diffusion training scheme. This scheme transforms and aligns multimodal data in the input space rather than in the learned latent space. The model trains on noisy data in all modalities, allowing for noisy language inputs as conditions in the process of conditional generation, enhancing robustness in diverse scenarios.
 
 ## Method
 
-The method is based on score-based diffusion models, which are a class of generative models that learn to generate new samples from a target data distribution by approximating the score function. The score function is defined as the gradient of the log-probability density of the training data points. The training process of the score-based diffusion model involves two steps: noise addition process and score function learning. The sampling process of the score-based diffusion model is a denoising process in reverse.
+The method is based on score-based diffusion models. With joint training of all modalities, it enables channel-guided sampling from any modality to any modality.
 
 ## Results
 
-The model was tested for unconditional joint sampling of all 4 channels without any guidance. It was observed that the approach is able to generate visually correlated classes from both CIFAR-10 and MNIST concurrently. The model also demonstrated the capability of relating MNIST class “0” to the CIFAR-10 class “airplane”. The results suggest that the channel-wise image guidance also helps learning more meaningful latent space that encodes some shared features among these classes.
+The model was tested for unconditional joint sampling of all 4 channels without any guidance. It was observed that the approach is able to generate visually correlated classes from both CIFAR-10 and MNIST concurrently. The model also demonstrated the capability of relating MNIST class “0” to the CIFAR-10 class “airplane”. The results suggest that the channel-wise image guidance also helps in learning more meaningful latent space that encodes some shared features among these classes.
 
 ## Contributions
 
